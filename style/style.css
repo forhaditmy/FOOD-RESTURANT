@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+/* font-family: "Work Sans", sans-serif; */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#hero{
+    height: 615px;
+     background-image: linear-gradient(0deg, rgb(16, 16, 16) -19.5%,rgba(16, 16, 16, 0) 100%),
+      url("../assets/hero-bg.png");
+     background-size: cover;
+     background-position: center;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+
+}
+#hero .hero-content{
+    width: 685px;
+}
+#hero .hero-content .subtitle{
+color: rgb(255, 255, 255);
+font-size: 20px;
+font-weight: 500;
+line-height: 38px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.8;
+margin-bottom: 10px;
+
+}
+#hero .hero-content .title{
+    color: rgb(255, 255, 255);
+font-size: 30px;
+font-weight: 600;
+line-height: 80px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 14px;
+}
+#hero .hero-content .conclution{
+    color: rgb(255, 255, 255);
+font-size: 13px;
+font-weight: 250;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.7;
+margin-bottom: 32px;
+}
+.btn-color{
+color: rgb(255, 255, 255);
+padding: 12px 16px 12px 16px;
+border-radius: 8px;
+border: none;
+background: rgb(82, 195, 3);
+font-size: 12px;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 0%;
+text-align: center;
+}
+.btn-contener{
+    text-align: center;
+}
+#card-box{
+    width: 500px;
+    margin: 100px auto;
+}
+#card-box .info{
+
+}
+#card-box .title{
+    color: rgb(16, 16, 16);
+font-size:15px;
+font-weight: 500;
+line-height:32px;
+letter-spacing: 0%;
+text-align: center;
+}
+#card-box .subtitle{
+    color: rgb(16, 16, 16);
+font-size: 14px;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.6;
+
+}
+.card-container{
+    margin-top: 30px;
+    display: flex;
+    gap: 15px;
+}
+.card{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+ .card .image-box {
+    width: 200px;
+ }
+ .card .image-box img{ width: 100%;
+
+ }
+ .card .shop{
+    background-color: aqua;
+    padding: 10px 20px 10px 20px;
+    border-radius: 8px;
+    background: rgba(82, 195, 3, 0.15);
+ }
